@@ -1,0 +1,48 @@
+{
+  "name": "soumyaops-backend",
+  "version": "1.0.0",
+  "description": "SoumyaOps AI Platform - Backend API",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "migrate": "node migrations/run.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.24.0",
+    "@langchain/anthropic": "^0.2.0",
+    "@langchain/community": "^0.2.0",
+    "@langchain/core": "^0.2.0",
+    "@langchain/pinecone": "^0.1.0",
+    "@octokit/rest": "^20.1.1",
+    "@pinecone-database/pinecone": "^2.2.2",
+    "axios": "^1.7.2",
+    "bcryptjs": "^2.4.3",
+    "bullmq": "^5.8.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.3.1",
+    "form-data": "^4.0.0",
+    "helmet": "^7.1.0",
+    "ioredis": "^5.4.1",
+    "joi": "^17.13.1",
+    "jsonwebtoken": "^9.0.2",
+    "langchain": "^0.2.5",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.52.0",
+    "passport": "^0.7.0",
+    "passport-github2": "^0.1.12",
+    "pg": "^8.12.0",
+    "simple-git": "^3.25.0",
+    "winston": "^3.13.0",
+    "ws": "^8.18.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
