@@ -23,3 +23,17 @@ coverage/
 .env.production.local
 .env.example
 soumyaops/.env.example
+soumyaops/.env
+soumyaops/.env.*
+soumyaops/node_modules/
+soumyaops/dist/
+soumyaops/build/
+soumyaops/coverage/
+soumyaops/*.log
+soumyaops/*.tmp
+soumyaops/*.bak
+soumyaops/.DS_Store
+soumyaops/.idea/
+soumyaops/.vscode/
+soumyaops/*.swp
+soumyaops/*.swo
